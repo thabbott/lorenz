@@ -18,14 +18,14 @@ After implementing the functions, the code can be compiled with the provided
 Makefile. In a bash-like shell and with the required scientific Python
 dependencies, running
 ```console
-you@computer:~ make
-you@computer:~ ./lorenz
-you@computer:~ python view.py
+you@computer:~$ make
+you@computer:~$ ./lorenz
+you@computer:~$ python view.py
 ```
 will simulate the Lorenz system and display an animation of the results. If you
 re-run the simulation, be sure to remove the created lorenz_xyz.out files first.
 If you want additionally to remove the files created during compilation, invoke
 ```console
-you@computer:~ make clean
+you@computer:~$ make clean
 ```
 to do so.
